@@ -1,4 +1,4 @@
-#IMG1{
+#IMG1 {
 
     display: block;
     margin-left: auto;
@@ -6,31 +6,35 @@
     width: 50%;
     width: 200px;
 }
-#HEADER{
+
+#HEADER {
     text-align: center;
 
 }
-.para{
+
+.para {
     text-align: center;
 }
-#project1{
+
+#project1 {
     width: 200px;
     /* margin-top: 70px; */
-     /* margin-left: 35px;
+    /* margin-left: 35px;
 align-self: center;  */
-display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
 
 }
-#projectlink{
+
+#projectlink {
     margin-top: 9px;
-  /* margin-left: 50px; */
-  text-align: center;
+    /* margin-left: 50px; */
+    text-align: center;
 }
 
-#footer{
+#footer {
     color: rgb(255, 255, 255);
     background-color: #202020;
     padding: 26px;
@@ -38,25 +42,29 @@ display: block;
     line-height: 40px;
 }
 
-.ourlinks{
+.ourlinks {
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
 }
-.lifooter{
+
+.lifooter {
     list-style: none;
 }
+
 .follow {
     flex-direction: row;
     text-align: center;
 }
-.skill2{
+
+.skill2 {
     width: 65px;
-    /* margin-left: 40px; */
+    margin-left: 40px;
     text-align: center;
 
 }
-.skill1{
+
+.skill1 {
     width: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -65,10 +73,64 @@ display: block;
 
 }
 
-.skill3{
+.skill3 {
     width: 65px;
     margin-left: 45px;
     text-align: center;
 
+
+}
+
+/* #skills {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    width: 10% 20% auto auto;
+    table-layout: auto;
+} */
+
+
+
+/* /
+contact us
+/ */
+#bodycontact{
+    background-image: url(modernistic-tech-background_23-2148480965.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    height: 100%;
+
+    
+}
+
+
+#countactbody {
+    height: 215px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* margin-right: auto;
+    margin-left: auto; */
+    text-align: center;
+    /* margin-top: 20px; */
+    margin: 75px auto auto auto;
+    
+
+}
+
+#name{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+#myemail{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+#gender{
+    margin-bottom: 15px;
 
 }
